@@ -15,7 +15,7 @@ using namespace std;
 //BEGIN GLOBALS
 SDL_Window 	*Window  = NULL;
 SDL_Renderer 	*Renderer= NULL;
-SDL_Surface 	*surface = NULL;
+
 TTF_Font 	*font 	 = NULL;
 SDL_Surface 	*title	 = NULL;
 
@@ -167,6 +167,7 @@ void set_game(void)
 	ai_score.x = 700;
 	ai_score.y = 10;
 }
+
 void reset_game(void)
 {
 	player_paddle.x = 20;
@@ -183,6 +184,7 @@ void reset_game(void)
 	aiscore		=0;
 
 }
+
 int update(void)
 {
 	const Uint8 *keystates=SDL_GetKeyboardState(NULL);
@@ -406,6 +408,8 @@ void clean_up(void)
 	TTF_CloseFont(font);
 	TTF_Quit();
 	SDL_FreeSurface(title);
+	SDL_FreeSurface(PScore);
+	SDL_FreeSurface(AIScore);
 	SDL_DestroyTexture(PS_tex);
 	SDL_DestroyTexture(AIS_tex);
 	SDL_DestroyRenderer(Renderer);
