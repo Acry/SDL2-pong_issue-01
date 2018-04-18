@@ -10,4 +10,6 @@ This uses SDL2 Renderer and the extensions
 SDL_Mixer, SDL_ttf.
 
 Help on [Issue](https://discourse.libsdl.org/t/need-help-with-menus-in-my-game/24238)
-on [SDL-Discourse](https://discourse.libsdl.org). 
+on [SDL-Discourse](https://discourse.libsdl.org).
+
+![Screenshot](./screenshot.jpg)

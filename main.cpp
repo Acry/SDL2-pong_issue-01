@@ -154,10 +154,10 @@ void set_game(void)
 	ball.x = BALL_X;
 	ball.y = BALL_Y;
 	
-	divider.w = 5;
+	divider.w = 4;
 	divider.h = 10;
-	divider.x = 400;
-	divider.y = 300;
+	divider.x = 398;
+	divider.y = 5;
 	
 	xVel = 3;
 	yVel = GetRandomNumber(BALL_SPEED,-BALL_SPEED);
@@ -348,6 +348,16 @@ void render(void)
 	SDL_RenderFillRect(Renderer, &ai_paddle);
 	SDL_RenderFillRect(Renderer, &ball);
 	
+	//Draw Divider WH=600
+	int i;
+	for (i=0; i<30; i++){
+		divider.y+=divider.h*2;
+		SDL_RenderFillRect(Renderer, &divider);
+	}
+	divider.y=5;
+	
+	SDL_RenderFillRect(Renderer, &divider);
+	
 	//Render SCORE
 	int w,h;
 	//player
@@ -432,4 +442,3 @@ void main_menu(void)
 
 
 //END FUNCTIONS
-
