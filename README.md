@@ -19,6 +19,8 @@ on [SDL-Discourse](https://discourse.libsdl.org).
 
 [Pong-Clone](https://github.com/phao/pong) in C  
 
+Oh well, and then there is always [github-search](https://github.com/search?q=pong+sdl&type=Repositories) and google.  
+
 [Pong](https://en.wikipedia.org/wiki/Pong) usually leads to a [Breakout](https://en.wikipedia.org/wiki/Breakout_(video_game))
 
 **Some Tutorials:**  
