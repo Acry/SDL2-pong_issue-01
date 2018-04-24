@@ -13,3 +13,24 @@ Help on [Issue](https://discourse.libsdl.org/t/need-help-with-menus-in-my-game/2
 on [SDL-Discourse](https://discourse.libsdl.org).
 
 ![Screenshot](./screenshot.jpg)
+
+Other Pong Clones:  
+[21st-century-pong](https://github.com/chaficnajjar/21st-century-pong) in C++  
+
+[Pong-Clone](https://github.com/phao/pong) in C  
+
+[Pong](https://en.wikipedia.org/wiki/Pong) usually leads to a [Breakout](https://en.wikipedia.org/wiki/Breakout_(video_game)) clone, here are some high quality clones:  
+
+[LBreakout](http://lgames.sourceforge.net/LBreakout/)  
+
+[LBreakout2](http://lgames.sourceforge.net/LBreakout2/)
+
+[SDL-Ball](http://sdl-ball.sourceforge.net/)  
+
+[DX-Ball](https://sourceforge.net/projects/dx-ball/)
+
+Those are some titles like Arkanoid, DX • BΔLL, DX-Ball 2, Rival Ball, Super DX-Ball ...
+
+[Breaking Down Breakout](http://www.gamasutra.com/view/feature/1630/breaking_down_breakout_system_and_.php?print=1)
+
+[Ranking of Breakout Clones](https://www.ranker.com/list/the-best-breakout-clone-games-of-all-time/reference)
