@@ -1,10 +1,10 @@
-This is external Code, a non functional Pong.
-
+This is external Code, a Pong-Clone Prototype in C/C++.  
+[![Build Status](https://travis-ci.org/Acry/SDL2-pong_issue-01.svg?branch=master)](https://travis-ci.org/Acry/SDL2-pong_issue-01)  
 ---DO NOT CLONE FOR A REFERENCE PONG---
 
 There are plenty of others.
 
-However it compiles and Gamestates should be implemented.
+However Gamestates should be implemented.
 
 This uses SDL2 Renderer and the extensions
 SDL_Mixer, SDL_ttf.
@@ -14,10 +14,10 @@ on [SDL-Discourse](https://discourse.libsdl.org).
 
 ![Screenshot](./screenshot.jpg)
 
-**Other Pong Clones:**  
-[21st-century-pong](https://github.com/chaficnajjar/21st-century-pong) in C++  
-
-[Pong-Clone](https://github.com/phao/pong) in C  
+**Other Pong Clones utilizing SDL:**  
+[Pong-Clone](https://github.com/phao/pong) in **C**  
+[21st-century-pong](https://github.com/chaficnajjar/21st-century-pong) in **C++**  
+[Pong-macaw](https://github.com/tubelz/pong-macaw/) in **Go** using Author's own engine  
 
 Oh well, and then there is always [github-search](https://github.com/search?q=pong+sdl&type=Repositories) and google.  
 
