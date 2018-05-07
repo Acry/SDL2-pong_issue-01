@@ -12,9 +12,12 @@ SDL_Mixer, SDL_ttf.
 Help on [Issue](https://discourse.libsdl.org/t/need-help-with-menus-in-my-game/24238)
 on [SDL-Discourse](https://discourse.libsdl.org).
 
+[More Example Code](https://gist.github.com/Acry/baa861b8e370c6eddbb18519c487d9d8)  
+
 ![Screenshot](./screenshot.jpg)
 
 **Other Pong Clones utilizing SDL:**  
+[My own Pong-Clone](https://github.com/Acry/SDL2-Pong) in **C**  
 [Pong-Clone](https://github.com/phao/pong) in **C**  
 [21st-century-pong](https://github.com/chaficnajjar/21st-century-pong) in **C++**  
 [Pong-macaw](https://github.com/tubelz/pong-macaw/) in **Go** using Author's own engine  
